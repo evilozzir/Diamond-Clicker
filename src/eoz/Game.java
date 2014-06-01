@@ -1,7 +1,7 @@
 package eoz;
 import java.util.Scanner;
 
-public class CC {
+public class Game {
 
 	public static void main(String[] args) {
 		int var1 = 0;

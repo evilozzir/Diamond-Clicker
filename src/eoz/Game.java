@@ -1,6 +1,5 @@
 package eoz;
 
-import com.sun.xml.internal.bind.v2.TODO;
 
 /**
  * Created by EvilOzzir <evilozzir@gmail.com> on 01/06/2014.
@@ -9,6 +8,7 @@ public class Game {
     ///////////
     //Amounts//
     ///////////
+
     int Diamonds; //The total amount of Diamonds
     int tDiamonds; //The total amount of cookies earned
     int Miners; //The total amount of Miners finding Diamonds

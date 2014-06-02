@@ -72,25 +72,24 @@ public class Game {
     }
 
     public int getPrice(char c){
-        int Price;
+        int price;
         int basePrice;
-        int Amount;
+        int amount;
 
         if (c=='M') {
             basePrice=pMiners;
-            Amount=Miners;
+            amount=Miners;
         }
         else if (c=='A') {
             basePrice=pAlchemist;
-            Amount=Alchemist;
+            amount=Alchemist;
         }
         else if (c=='S') {
             basePrice=pShip;
-            Amount=Ship;
+            amount=Ship;
         }
         else return 0;
-        //TODO: Make the algorithm
-        return basePrice;
+        return (int) Math.round(basePrice*Math.pow(0.12,amount));
 
     }
 
